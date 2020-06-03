@@ -1,0 +1,3 @@
+Scrapy
+Unidecode
+beautifulsoup4
