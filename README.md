@@ -7,7 +7,7 @@ A fun projects made using Scrapy. The Spiders included in this are able to extra
 
 **Python3**
 
-```python3
+```python
 
 >> python3 -m venv venv
 >> . ./venv/bin/activate
@@ -16,7 +16,7 @@ A fun projects made using Scrapy. The Spiders included in this are able to extra
 
 **Anaconda**
 
-```base
+```python
 
 >> conda create --name venv
 >> conda activate venv
@@ -55,7 +55,7 @@ IMDb Scraper extracts the following attributes from IMDb websites. Also, have a 
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install following
 
-```python3
+```python
 
 >> pip install -r requirements.txt
 >> pip install scrapy
@@ -64,7 +64,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install followi
 
 **Anaconda**
 
-```base
+```python
 
 >> conda install scrapy -y
 
@@ -86,7 +86,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install followi
 
 ### Usage
 
-```python3
+```python
 
 >> scrapy crawl imdb_year -a title_type=feature -a year=2019
 
@@ -94,7 +94,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install followi
 
 **Save the output as a file**
 
-```python3
+```python
 
 >> scrapy crawl imdb_year -a title_type=feature -a year=2019 -o output.csv
 
